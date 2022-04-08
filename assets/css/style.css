@@ -1,0 +1,359 @@
+/* –––––––General Style––––––– */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Merriweather:wght@300;400;700&display=swap');
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+
+color: #202020, #24bff2, #fff, #F5FBFE
+color social media: #3b5998, #fcaf45, #55acee, #c4302b
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: #fff;
+    font-family: Merriweather, serif;
+    font-weight: 300;
+}
+
+/* –––––––––Header––––––– */
+
+header {
+    background: url(../img/illustration1.gif) no-repeat right;
+    height: 100vh;
+    background-size: 35%;
+    margin: 5vh 5% 0 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 15px 30px;
+    font: 2rem Lato, sans-serif;
+}
+
+header nav ul {
+    text-align: right;
+}
+
+/* –––––––––HOVER––––––––––––––– */
+header nav ul li:nth-of-type(1):hover {
+    text-shadow: 0 0 2px dimgray;
+}
+
+header nav ul li:nth-of-type(2):hover {
+    text-shadow: 0 0 2px dimgray;
+}
+
+header nav ul li:nth-of-type(3):hover {
+    text-shadow: 0 0 2px dimgray;
+}
+
+/* –––––––––––h1 + text––––––– */
+header div {
+    margin: 30vh 0 0 10%;
+}
+
+header div h1 {
+    font-size: 5rem;
+}
+
+header div h2 {
+    font-size: 5rem;
+    padding-bottom: 2vh;
+}
+
+header div p {
+    font-size: 2.5rem;
+    padding: 0 68% 4vh 0;
+}
+
+header div a {
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 2vh 2%;
+    border-radius: 5px;
+}
+
+header div a:nth-of-type(1) {
+    background-color: #202020;
+    color: #fff;
+    box-shadow: 0 0 5px #202020;
+}
+
+header div a:nth-of-type(2) {
+    color: #202020;
+    box-shadow: 0 0 10px gray;
+    margin-left: 5px;
+}
+
+/* –––––MAIN: SECTION 1––––––––––––––––––
+––––REAL BEAUTY RESIDES IN IMPERFECTION–––––– */
+
+main section:nth-of-type(1) {
+    background: url(../img/illustration2.png) no-repeat left;
+    height: 100vh;
+    background-size: 35%;
+    margin: 5vh 5% 0 5%;
+}
+
+main section:nth-of-type(1) h1 {
+    font-size: 5rem;
+    margin-left: 60%;
+    padding-top: 35vh;
+}
+
+main section:nth-of-type(1) h2 {
+    font-size: 5rem;
+    margin-left: 60%;
+    padding-bottom: 2vh;
+}
+
+main section:nth-of-type(1) p {
+    font-size: 2.5rem;
+    margin-left: 60%;
+}
+
+/* –––––––MAIN: Section 2 –––––––––*/
+
+main section:nth-of-type(2) {
+    background: url(../img/illustration3.png) no-repeat right;
+    height: 100vh;
+    background-size: 35%;
+    margin: 0 5% 0 0;
+    padding-top: 15vh;
+}
+
+main section:nth-of-type(2) h1 {
+    font-size: 5rem;
+    margin: 30vh 0 0 10%;
+}
+
+main section:nth-of-type(2) h2 {
+    font-size: 5rem;
+    margin: 0 0 0 10%;
+    padding-bottom: 2vh;
+}
+
+main section:nth-of-type(2) p {
+    font-size: 2.5rem;
+    margin: 0 60% 0 10%;
+}
+
+/* –––––––MAIN: Section 3 –––––––––*/
+main section:nth-of-type(3) h1 {
+    font-size: 5rem;
+    margin: 20vh 0 2vh 10%;
+    text-align: center;
+}
+
+main section:nth-of-type(3) p {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0 15% 10vh 15%;
+}
+
+main section:nth-of-type(3) div img {
+    width: 25%;
+    height: auto;
+}
+
+/* First picture */
+main section:nth-of-type(3) div img:nth-of-type(1) {
+    margin: 0 5%;
+}
+
+main section:nth-of-type(3) div img:nth-of-type(1):hover {
+    box-shadow: 0 0 5px gray;
+}
+
+/* Second picture */
+main section:nth-of-type(3) div img:nth-of-type(2):hover {
+    box-shadow: 0 0 5px gray;
+}
+
+/* Third picture */
+main section:nth-of-type(3) div img:nth-of-type(3) {
+    margin: 0 5%;
+}
+
+main section:nth-of-type(3) div img:nth-of-type(3):hover {
+    box-shadow: 0 0 5px gray;
+}
+
+/* ======MAIN SECTION COVER 04 ========= */
+
+main section:nth-of-type(4) h1 {
+    font-size: 5rem;
+    margin: 20vh 0 2vh 10%;
+    text-align: center;
+}
+
+main section:nth-of-type(4) p {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0 15% 10vh 15%;
+}
+
+main section:nth-of-type(4) div img {
+    width: 40%;
+    height: auto;
+}
+
+/* The Compost picture No. 1*/
+main section:nth-of-type(4) div img:nth-of-type(1) {
+    margin: 0 5% 0 7.5%;
+}
+
+main section:nth-of-type(4) div img:nth-of-type(1):hover {
+    box-shadow: 0 0 5px gray;
+}
+
+/* Andrew James Picture No. 2 */
+main section:nth-of-type(4) div img:nth-of-type(2):hover {
+    box-shadow: 0 0 5px gray;
+}
+
+/* Engage your customers picture No. 3 */
+main section:nth-of-type(4) div img:nth-of-type(3) {
+    margin: 5vh 5% 0 7.5%;
+}
+
+main section:nth-of-type(4) div img:nth-of-type(3):hover {
+    box-shadow: 0 0 5px gray;
+}
+
+/* Think bigger picture No. 4 */
+
+main section:nth-of-type(4) div img:nth-of-type(4):hover {
+    box-shadow: 0 0 5px gray;
+}
+
+/* Share your story picture No. 5 */
+main section:nth-of-type(4) div img:nth-of-type(5) {
+    margin: 5vh 5% 0 7.5%;
+}
+
+main section:nth-of-type(4) div img:nth-of-type(5):hover {
+    box-shadow: 0 0 5px gray;
+}
+
+/* Choose the best time picture No. 6 */
+main section:nth-of-type(4) div img:nth-of-type(6):hover {
+    box-shadow: 0 0 5px gray;
+}
+
+/* Section 05 Download Illustrations */
+
+main section:nth-of-type(5) h1 {
+    font-size: 5rem;
+    margin: 20vh 0 2vh 10%;
+    text-align: center;
+}
+
+main section:nth-of-type(5) p {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0 15% 10vh 20%;
+}
+
+/* section 06 - Membership */
+main section:nth-of-type(6) div {
+    background: #F5FBFE;
+    text-align: center;
+    height: 80vh;
+    width: 20%;
+    margin: 10vh 40% 0 40%;
+    font-weight: 400;
+}
+
+main section:nth-of-type(6) div h1 {
+    padding: 7vh 0 5vh 0;
+    font-size: 3rem;
+}
+
+main section:nth-of-type(6) div h2 {
+    font-size: 2rem;
+}
+
+main section:nth-of-type(6) div p {
+    padding: 2vh 0;
+    color: grey;
+}
+
+main section:nth-of-type(6) div ul li {
+    list-style: none;
+    line-height: 3rem;
+    font-size: 1.5rem;
+}
+
+main section:nth-of-type(6) div ul {
+    margin: 7vh;
+}
+
+main section:nth-of-type(6) div a {
+    text-decoration: none;
+
+    background-color: #24bff2;
+    padding: 2vh 10% 2vh 10%;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+main section:nth-of-type(6) div a:hover {
+    box-shadow: 5px 5px 5px #0f536a;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    font-size: 2rem;
+}
+
+footer h1 {
+    font-size: 3rem;
+    margin: 5vh 0;
+}
+
+footer p:nth-of-type(1) {
+    color: grey;
+    margin-bottom: 3vh;
+}
+
+footer p:nth-of-type(2) {
+    margin-top: 3vh;
+}
+
+
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a span:first-child {
+    color: #3b5998;
+}
+
+footer a span:nth-of-type(2) {
+    color: #fcaf45;
+}
+
+footer a span:nth-of-type(3) {
+    color: #55acee;
+}
+
+footer a span:nth-of-type(4) {
+    color: #c4302b
+}
+
+footer span {
+    font-size: 4rem;
+
+}
